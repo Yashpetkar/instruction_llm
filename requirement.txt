@@ -1,3 +1,3 @@
 Flask==2.3.2
 Pillow==9.5.0
-google-generativeai==0.1.0  # replace with the actual version if known or needed
+google-generativeai
