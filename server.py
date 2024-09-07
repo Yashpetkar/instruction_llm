@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from PIL import Image
 import google.generativeai as genai
 import io
 
-app = Flask(__name__)
+app = Flask(_name_)
+CORS(app)
 
 api_key = 'AIzaSyA17JhtXqfPCa_CrBz1A8S6Dl08QSd-KnI'
 genai.configure(api_key=api_key)
@@ -50,5 +52,5 @@ def upload():
 
     return jsonify({"descriptions": descriptions}), 200
 
-if __name__ == '__main__':
+if _name_ == '_main_':
     app.run(debug=True)
