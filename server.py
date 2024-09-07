@@ -37,7 +37,7 @@ def upload():
     vision_model = genai.GenerativeModel('gemini-1.5-flash')
 
     for idx, img in enumerate(image_list):
-        question = f"Please explain the content of image {idx + 1}"
+        question = f"describe a detailed, step-by-step guide {idx + 1}"
         
         img_bytes = io.BytesIO()
         img.save(img_bytes, format='PNG')
