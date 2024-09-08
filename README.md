@@ -71,4 +71,9 @@ project_root/
 │   └── TC-01 (Test Images TC-01 to TC-03)
 
 └── Readme.md
- 
+
+Test image 
+![TC-03](https://github.com/user-attachments/assets/ace4a066-2600-4c7b-8070-8e24e63a2843)
+
+Output
+![Screenshot (345)](https://github.com/user-attachments/assets/257e8412-9db8-405e-9c1d-fbe2c4fd81a3)
